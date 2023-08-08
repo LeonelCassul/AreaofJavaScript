@@ -62,7 +62,7 @@ cumprimentar("Leonel", mostrarSaudacao);
 function mostrarMensagem(){
     console.log("Essa mensagem será exibida apos 3 seg");
 }
-setTimeout(mostrarMensagem, 3000);
+//setTimeout(mostrarMensagem, 3000);
 
 // Promises
 const promessa  =  new Promise(
