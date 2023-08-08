@@ -140,3 +140,17 @@ do{
      const nome = "Leonel";
      const minhaVida = `${nome} Como estás?`;
      console.log(minhaVida);
+     console.log(minhaVida.length);
+
+     // Data e Hora
+
+     const agora = Date();
+     console.log(agora);
+     const natal =  new Date(2023, 11, 25);
+     console.log(natal);
+     
+     // Math
+     console.log(Math.PI);
+     console.log(Math.pow(3,4));
+
+
