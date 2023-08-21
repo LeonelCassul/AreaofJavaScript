@@ -1,38 +1,32 @@
-/*
-               PROBLEM 
+/* 
+Factorial Sum
 
-Read the four values corresponding to the x and y axes of 
-two points in the plane, p1 (x1, y1) and p2 (x2, y2) and calculate
- the distance between them, showing four decimal places 
- after the comma., according to the formula:
+Read two numbers M and N indefinitely.
+Calculate and write the sum of their factorial.
+Be carefull, because the result can have more than 15 digits.
 
 Input
-The input file contains two lines of data. 
-The first one contains two double values: x1 y1 and the second one also contains
- two double values with one digit after the decimal point: x2 y2.
+The input file contains many test cases.
+Each test case contains two integer numbers M (0 ≤ M ≤ 20) and N (0 ≤ N ≤ 20). 
+The end of file is determined by eof.
 
 Output
-Calculate and print the distance value using the 
-provided formula, with 4 digits after the decimal point.
-
+For each test case in the input your program 
+must print a single line, containing a number 
+that is the sum of the both factorial (M and N).
 */
 
-// Declação  das variaveis
+// Declaração das Variaveis 
 
-        // Cordenada do  P1
-        let x1 = Number(prompt("Informe o valor de x1:"));
-        let y1 = Number(prompt("Informe o valor de y1:"));
+let n = parseInt(prompt("Informe o primeiro número: "));
+let m = parseInt(prompt("Informe o segundo número"));
 
-        // Coordenada do P2
-        let x2 = Number(prompt("Informe o valor de x2:"));
-        let y2 = Number(prompt("Informe o valor de y2:"));
+// Processamento
 
-        // Operaçao
-
-        let distancia = Math.sqrt( Math.pow((x2 - x1),2) + Math.pow((y2 - y1),2));
-        let casaDecimal = parseFloat(distancia.toFixed(4));
-
-        // Saída 
-      
-        console.log(casaDecimal);
-
+if((n >= 0 && n <= 20) && (m >= 0 && m <= 20)){
+        console.log("Soma de vfatorial");
+        for (let index = 0; index < n; index++) {
+               console.log("Testando ..2,3,4");
+                
+        }
+}
